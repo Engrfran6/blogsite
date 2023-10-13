@@ -1,0 +1,9 @@
+.home{
+    display: flex;
+}
+
+.latestnews{
+    font-size: 3rem;
+    padding: 1rem 0 0 2rem;
+    text-decoration: underline;
+}

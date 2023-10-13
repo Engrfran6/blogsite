@@ -1,0 +1,89 @@
+.settings{
+    display: flex;
+   
+}
+
+.settingswrapper{
+    flex: 9;
+    padding: 20px;
+}
+
+.settingstitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settingsupdatetitle{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: lightcoral;
+
+}
+
+.settingsdeletetitle{
+    color: red;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+
+.settingsform{
+    display: flex;
+    flex-direction: column;
+}
+
+.settingsform>label{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.settingsform>input{
+    color: grey;
+    margin: 10px 0;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+
+}
+
+.setingsprofilepicture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+
+}
+
+.profilepicture{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.settingsprofilepictureicon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: lightcoral;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+.settingssubmit{
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: teal;
+    padding: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}

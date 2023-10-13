@@ -1,0 +1,35 @@
+.header{
+    width: 100%;
+}
+
+.headertitles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* position: absolute; */
+    padding-top: 1.5rem;
+    /* color: purple; */
+}
+
+.headertitlesm{
+    font-size: 30px;
+    text-shadow: 2px 8px 5px grey;
+}
+
+.headertitlelg{
+    font-family: 'Carter One', cursive;
+    font-size: 70px;
+}
+
+.headerslogan{
+    color: purple;
+    text-decoration: wavy;
+    font-style: italic;
+}
+
+.headerimage{
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
